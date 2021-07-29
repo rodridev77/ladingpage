@@ -1,0 +1,79 @@
+
+/******* HOME *******/
+.produto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produto a {
+    color: inherit;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.produto a:hover {
+    background-color: #e3e3e3;
+}
+
+.produto-item {
+    margin: 10px;
+    width: 180px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.produto-item img {
+    margin-bottom: 10px;
+}
+
+/******* PRODUTO *******/
+.container-produto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produto-img {
+    background-color: red;
+    max-width: 45%;
+}
+
+.produto-detalhes {
+    max-width: 45%;
+}
+
+/******* CARRINHO *******/
+.container-carrinho {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+.carrinho-pedidos {
+    margin-left: 10px;
+    width: 45%;
+}
+
+.carrinho-info {
+    margin-left: 10px;
+    background-color: green;
+    width: 45%;
+}
+
+/******* CONTATO *******/
+.contato {
+    width: 80%;
+    margin-left: 20px;
+}
+
+.form-contato textarea {
+    resize: none;
+}
+
+/******* CONTATO *******/
+.container-finalizar {
+    margin: 0 auto;
+    width: 80%;
+}
